@@ -57,12 +57,6 @@ def main():
     eventos = diff(viejos, nuevos)
     for e in eventos:
         print(f"EVENTO {e}")
-    if not eventos and ESTADO.exists():
-        print(f"SIN_CAMBIOS: {len(nuevos)} conciertos")
-        # reescribir igual para mantener actualizado el timestamp? NO: si no hay cambios
-        # no se commitea, asi el archivo del repo solo cambia cuando hay cambios reales.
-        # Pero el PC local compara por conciertos, no por timestamp, asi que esta bien.
-        sys.exit(0)
 
     estado = {
         "actualizado": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
@@ -71,6 +65,8 @@ def main():
         "conciertos": nuevos,
     }
     ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8")
+    # heartbeat: se commitea SIEMPRE para que 'actualizado' refleje el ultimo scrape ok
+    # (el PC local usa ese timestamp para saber la frescura de los datos)
     print(f"GUARDADO: {len(nuevos)} conciertos, {len(eventos)} cambios")
 
 
