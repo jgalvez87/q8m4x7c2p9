@@ -1,6 +1,7 @@
 """
 Sync cloud: scrapea zelda.gameconcerts.com y actualiza estado.json si cambia.
 Ejecutado por GitHub Actions cada 5 min.
+Mantiene historial de cambios (para mostrar "ultimos cambios" en la web).
 """
 import json
 import sys
@@ -11,12 +12,13 @@ from scraper import scrape, clave, ESTADO_AGOTADO
 
 ESTADO = Path(__file__).parent / "estado.json"
 MIN_CONCIERTOS = 5
+MAX_HISTORIAL = 20
 
 
 def cargar():
     if ESTADO.exists():
         try:
-            return json.loads(ESTADO.read_text(encoding="utf-8")).get("conciertos", {})
+            return json.loads(ESTADO.read_text(encoding="utf-8"))
         except Exception:
             return {}
     return {}
@@ -43,6 +45,9 @@ def diff(antiguos, nuevos):
 
 
 def main():
+    prev = cargar()
+    viejos = prev.get("conciertos", {})
+    historial = prev.get("historial", [])
     try:
         lista = scrape()
     except Exception as e:
@@ -53,20 +58,24 @@ def main():
         sys.exit(1)
 
     nuevos = {clave(c): c for c in lista}
-    viejos = cargar()
     eventos = diff(viejos, nuevos)
     for e in eventos:
         print(f"EVENTO {e}")
 
+    ahora = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    if eventos:
+        historial = [{"cuando": ahora, "eventos": eventos}] + historial
+        historial = historial[:MAX_HISTORIAL]
+
     estado = {
-        "actualizado": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "actualizado": ahora,
         "total": len(nuevos),
         "ciudades": len({c["ciudad"] for c in nuevos.values()}),
+        "historial": historial,
         "conciertos": nuevos,
     }
     ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8")
     # heartbeat: se commitea SIEMPRE para que 'actualizado' refleje el ultimo scrape ok
-    # (el PC local usa ese timestamp para saber la frescura de los datos)
     print(f"GUARDADO: {len(nuevos)} conciertos, {len(eventos)} cambios")
 
 
