@@ -4,9 +4,12 @@ Ejecutado por GitHub Actions cada 5 min.
 Mantiene historial de cambios (para mostrar "ultimos cambios" en la web).
 """
 import json
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+import requests
 
 from scraper import scrape, clave, ESTADO_AGOTADO
 
@@ -44,6 +47,30 @@ def diff(antiguos, nuevos):
     return eventos
 
 
+def notificar_ntfy(eventos):
+    """Push a la app ntfy del movil. Solo si hay topic configurado (secreto NTFY_TOPIC)."""
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    if not topic:
+        print("NTFY: sin topic configurado, se omite notificacion")
+        return
+    # agrupar: titulo con nº de cambios, cuerpo con los eventos
+    ciudades = [e.split("] ",1)[1] for e in eventos if e.startswith("[nueva_ciudad]")]
+    if ciudades:
+        tit = f"Zelda 40: nueva ciudad {ciudades[0].split(' (')[0]}"
+    else:
+        tit = f"Zelda 40: {len(eventos)} cambio(s)"
+    cuerpo = "\n".join(eventos)
+    try:
+        r = requests.post(f"https://ntfy.sh/{topic}",
+                          data=cuerpo.encode("utf-8"),
+                          headers={"Title": tit.encode("utf-8"), "Priority": "high"},
+                          timeout=20)
+        r.raise_for_status()
+        print(f"NTFY: notificacion enviada ({r.status_code})")
+    except Exception as e:
+        print(f"NTFY_ERROR: {type(e).__name__}: {e}")
+
+
 def main():
     prev = cargar()
     viejos = prev.get("conciertos", {})
@@ -66,6 +93,7 @@ def main():
     if eventos:
         historial = [{"cuando": ahora, "eventos": eventos}] + historial
         historial = historial[:MAX_HISTORIAL]
+        notificar_ntfy(eventos)
 
     estado = {
         "actualizado": ahora,
