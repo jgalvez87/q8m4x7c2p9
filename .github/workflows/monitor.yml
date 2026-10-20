@@ -24,6 +24,8 @@ jobs:
 
       - name: Scrape y diff
         id: sync
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python sync.py
 
       - name: Commit (heartbeat cada 5min)
