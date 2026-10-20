@@ -26,14 +26,10 @@ jobs:
         id: sync
         run: python sync.py
 
-      - name: Commit si hay cambios
+      - name: Commit (heartbeat cada 5min)
         run: |
-          if [ -n "$(git status --porcelain estado.json)" ]; then
-            git config user.name "zelda-monitor"
-            git config user.email "jgalvez87@users.noreply.github.com"
-            git add estado.json
-            git commit -m "cambios $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
-          else
-            echo "sin cambios, nada que commitear"
-          fi
+          git config user.name "zelda-monitor"
+          git config user.email "jgalvez87@users.noreply.github.com"
+          git add estado.json
+          git commit -m "update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
