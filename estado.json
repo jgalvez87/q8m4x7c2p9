@@ -1,8 +1,18 @@
 {
- "actualizado": "2026-10-30T08:57:47+00:00",
+ "actualizado": "2026-10-30T15:28:18+00:00",
  "total": 37,
  "ciudades": 16,
- "historial": [],
+ "historial": [
+  {
+   "cuando": "2026-10-30T15:28:18+00:00",
+   "eventos": [
+    "[nuevo_concierto] TORONTO, ON (CAN) 21 OCT 2027",
+    "[nuevo_concierto] TORONTO, ON (CAN) 22 OCT 2027",
+    "[retirado] TORONTO, ON (CANADA) 21 OCT 2027",
+    "[retirado] TORONTO, ON (CANADA) 22 OCT 2027"
+   ]
+  }
+ ],
  "conciertos": {
   "UK|LONDON|3 APR 2027|2:30 PM|Royal Albert Hall": {
    "pais": "UK",
@@ -52,8 +62,8 @@
    "enlace": "https://www.royalalberthall.com/tickets/events/2027/the-legend-of-zelda-40th-anniversary-concert",
    "seccion": "tickets"
   },
-  "CANADA|TORONTO, ON|21 OCT 2027|7:30 PM|Roy Thomson Hall": {
-   "pais": "CANADA",
+  "CAN|TORONTO, ON|21 OCT 2027|7:30 PM|Roy Thomson Hall": {
+   "pais": "CAN",
    "ciudad": "TORONTO, ON",
    "fecha": "21 OCT 2027",
    "hora": "7:30 PM",
@@ -64,8 +74,8 @@
    "enlace": "https://www.tso.ca/concerts-and-events/events/the-legend-of-zelda",
    "seccion": "tickets"
   },
-  "CANADA|TORONTO, ON|22 OCT 2027|7:30 PM|Roy Thomson Hall": {
-   "pais": "CANADA",
+  "CAN|TORONTO, ON|22 OCT 2027|7:30 PM|Roy Thomson Hall": {
+   "pais": "CAN",
    "ciudad": "TORONTO, ON",
    "fecha": "22 OCT 2027",
    "hora": "7:30 PM",
