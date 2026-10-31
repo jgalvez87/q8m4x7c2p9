@@ -1,8 +1,16 @@
 {
- "actualizado": "2026-10-31T14:49:00+00:00",
+ "actualizado": "2026-10-31T18:49:13+00:00",
  "total": 37,
  "ciudades": 16,
  "historial": [
+  {
+   "cuando": "2026-10-31T18:49:13+00:00",
+   "eventos": [
+    "[agotado] LONDON (UK) 3 APR 2027 7:30 PM",
+    "[agotado] LONDON (UK) 4 APR 2027 1:30 PM",
+    "[agotado] LONDON (UK) 4 APR 2027 6:30 PM"
+   ]
+  },
   {
    "cuando": "2026-10-30T15:28:18+00:00",
    "eventos": [
@@ -19,42 +27,6 @@
    "ciudad": "LONDON",
    "fecha": "3 APR 2027",
    "hora": "2:30 PM",
-   "orquesta": "London Symphony Orchestra",
-   "sede": "Royal Albert Hall",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://www.royalalberthall.com/tickets/events/2027/the-legend-of-zelda-40th-anniversary-concert",
-   "seccion": "tickets"
-  },
-  "UK|LONDON|3 APR 2027|7:30 PM|Royal Albert Hall": {
-   "pais": "UK",
-   "ciudad": "LONDON",
-   "fecha": "3 APR 2027",
-   "hora": "7:30 PM",
-   "orquesta": "London Symphony Orchestra",
-   "sede": "Royal Albert Hall",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://www.royalalberthall.com/tickets/events/2027/the-legend-of-zelda-40th-anniversary-concert",
-   "seccion": "tickets"
-  },
-  "UK|LONDON|4 APR 2027|1:30 PM|Royal Albert Hall": {
-   "pais": "UK",
-   "ciudad": "LONDON",
-   "fecha": "4 APR 2027",
-   "hora": "1:30 PM",
-   "orquesta": "London Symphony Orchestra",
-   "sede": "Royal Albert Hall",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://www.royalalberthall.com/tickets/events/2027/the-legend-of-zelda-40th-anniversary-concert",
-   "seccion": "tickets"
-  },
-  "UK|LONDON|4 APR 2027|6:30 PM|Royal Albert Hall": {
-   "pais": "UK",
-   "ciudad": "LONDON",
-   "fecha": "4 APR 2027",
-   "hora": "6:30 PM",
    "orquesta": "London Symphony Orchestra",
    "sede": "Royal Albert Hall",
    "estado": "en_venta",
@@ -117,6 +89,42 @@
    "hora": "7:30 PM",
    "orquesta": "Members of the Chicago Symphony Orchestra",
    "sede": "Symphony Center",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
+  "UK|LONDON|3 APR 2027|7:30 PM|Royal Albert Hall": {
+   "pais": "UK",
+   "ciudad": "LONDON",
+   "fecha": "3 APR 2027",
+   "hora": "7:30 PM",
+   "orquesta": "London Symphony Orchestra",
+   "sede": "Royal Albert Hall",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
+  "UK|LONDON|4 APR 2027|1:30 PM|Royal Albert Hall": {
+   "pais": "UK",
+   "ciudad": "LONDON",
+   "fecha": "4 APR 2027",
+   "hora": "1:30 PM",
+   "orquesta": "London Symphony Orchestra",
+   "sede": "Royal Albert Hall",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
+  "UK|LONDON|4 APR 2027|6:30 PM|Royal Albert Hall": {
+   "pais": "UK",
+   "ciudad": "LONDON",
+   "fecha": "4 APR 2027",
+   "hora": "6:30 PM",
+   "orquesta": "London Symphony Orchestra",
+   "sede": "Royal Albert Hall",
    "estado": "agotado",
    "fecha_venta": "",
    "enlace": "",
