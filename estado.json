@@ -1,8 +1,14 @@
 {
- "actualizado": "2026-11-11T23:01:25+00:00",
- "total": 37,
+ "actualizado": "2026-11-12T03:40:41+00:00",
+ "total": 38,
  "ciudades": 16,
  "historial": [
+  {
+   "cuando": "2026-11-12T03:40:41+00:00",
+   "eventos": [
+    "[nuevo_concierto] SYDNEY (AUS) 9 JUL 2027"
+   ]
+  },
   {
    "cuando": "2026-11-05T08:29:12+00:00",
    "eventos": [
@@ -28,6 +34,18 @@
   }
  ],
  "conciertos": {
+  "AUS|SYDNEY|9 JUL 2027|2 PM|Sydney Opera House": {
+   "pais": "AUS",
+   "ciudad": "SYDNEY",
+   "fecha": "9 JUL 2027",
+   "hora": "2 PM",
+   "orquesta": "Sydney Symphony Orchestra",
+   "sede": "Sydney Opera House",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.sydneysymphony.com/events/the-legend-of-zelda-2027",
+   "seccion": "tickets"
+  },
   "CAN|TORONTO, ON|21 OCT 2027|7:30 PM|Roy Thomson Hall": {
    "pais": "CAN",
    "ciudad": "TORONTO, ON",
