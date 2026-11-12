@@ -1,8 +1,25 @@
 {
- "actualizado": "2026-11-12T03:40:41+00:00",
- "total": 38,
- "ciudades": 16,
+ "actualizado": "2026-11-12T11:49:11+00:00",
+ "total": 50,
+ "ciudades": 19,
  "historial": [
+  {
+   "cuando": "2026-11-12T11:49:11+00:00",
+   "eventos": [
+    "[nuevo_concierto] LONDON (UK) 6 APR 2027",
+    "[nuevo_concierto] STOCKHOLM (SWE) 19 JUN 2027",
+    "[nueva_ciudad] AMSTERDAM (NLD) 6 SEP 2027",
+    "[nueva_ciudad] AMSTERDAM (NLD) 7 SEP 2027",
+    "[nueva_ciudad] FRANKFURT AM MAIN (GER) 10 SEP 2027",
+    "[nueva_ciudad] FRANKFURT AM MAIN (GER) 11 SEP 2027",
+    "[nueva_ciudad] FRANKFURT AM MAIN (GER) 11 SEP 2027",
+    "[nuevo_concierto] EDINBURGH (UK) 17 SEP 2027",
+    "[nuevo_concierto] GLASGOW (UK) 18 SEP 2027",
+    "[nueva_ciudad] PARIS (FRA) 13 NOV 2027",
+    "[nueva_ciudad] PARIS (FRA) 14 NOV 2027",
+    "[nueva_ciudad] PARIS (FRA) 14 NOV 2027"
+   ]
+  },
   {
    "cuando": "2026-11-12T03:40:41+00:00",
    "eventos": [
@@ -34,6 +51,30 @@
   }
  ],
  "conciertos": {
+  "UK|LONDON|6 APR 2027|7:30 PM|Royal Albert Hall": {
+   "pais": "UK",
+   "ciudad": "LONDON",
+   "fecha": "6 APR 2027",
+   "hora": "7:30 PM",
+   "orquesta": "London Symphony Orchestra",
+   "sede": "Royal Albert Hall",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.royalalberthall.com/tickets/events/2027/the-legend-of-zelda-40th-anniversary-concert",
+   "seccion": "tickets"
+  },
+  "SWE|STOCKHOLM|19 JUN 2027|3 PM|Konserthuset Stockholm": {
+   "pais": "SWE",
+   "ciudad": "STOCKHOLM",
+   "fecha": "19 JUN 2027",
+   "hora": "3 PM",
+   "orquesta": "Royal Stockholm Philharmonic Orchestra",
+   "sede": "Konserthuset Stockholm",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.konserthuset.se/en/programme/calendar/concert/2027/the-legend-of-zelda-40th-anniversary-concert/20270618-1900/",
+   "seccion": "tickets"
+  },
   "AUS|SYDNEY|9 JUL 2027|2 PM|Sydney Opera House": {
    "pais": "AUS",
    "ciudad": "SYDNEY",
@@ -44,6 +85,90 @@
    "estado": "en_venta",
    "fecha_venta": "",
    "enlace": "https://www.sydneysymphony.com/events/the-legend-of-zelda-2027",
+   "seccion": "tickets"
+  },
+  "NLD|AMSTERDAM|6 SEP 2027|8:15 PM|Concertgebouw Amsterdam": {
+   "pais": "NLD",
+   "ciudad": "AMSTERDAM",
+   "fecha": "6 SEP 2027",
+   "hora": "8:15 PM",
+   "orquesta": "Netherlands Philharmonic Orchestra",
+   "sede": "Concertgebouw Amsterdam",
+   "estado": "proximamente",
+   "fecha_venta": "TBA",
+   "enlace": "",
+   "seccion": "tickets"
+  },
+  "NLD|AMSTERDAM|7 SEP 2027|8:15 PM|Concertgebouw Amsterdam": {
+   "pais": "NLD",
+   "ciudad": "AMSTERDAM",
+   "fecha": "7 SEP 2027",
+   "hora": "8:15 PM",
+   "orquesta": "Netherlands Philharmonic Orchestra",
+   "sede": "Concertgebouw Amsterdam",
+   "estado": "proximamente",
+   "fecha_venta": "TBA",
+   "enlace": "",
+   "seccion": "tickets"
+  },
+  "GER|FRANKFURT AM MAIN|10 SEP 2027|8 PM|Alte Oper": {
+   "pais": "GER",
+   "ciudad": "FRANKFURT AM MAIN",
+   "fecha": "10 SEP 2027",
+   "hora": "8 PM",
+   "orquesta": "Frankfurt Radio Symphony",
+   "sede": "Alte Oper",
+   "estado": "proximamente",
+   "fecha_venta": "TBA",
+   "enlace": "",
+   "seccion": "tickets"
+  },
+  "GER|FRANKFURT AM MAIN|11 SEP 2027|2 PM|Alte Oper": {
+   "pais": "GER",
+   "ciudad": "FRANKFURT AM MAIN",
+   "fecha": "11 SEP 2027",
+   "hora": "2 PM",
+   "orquesta": "Frankfurt Radio Symphony",
+   "sede": "Alte Oper",
+   "estado": "proximamente",
+   "fecha_venta": "TBA",
+   "enlace": "",
+   "seccion": "tickets"
+  },
+  "GER|FRANKFURT AM MAIN|11 SEP 2027|8 PM|Alte Oper": {
+   "pais": "GER",
+   "ciudad": "FRANKFURT AM MAIN",
+   "fecha": "11 SEP 2027",
+   "hora": "8 PM",
+   "orquesta": "Frankfurt Radio Symphony",
+   "sede": "Alte Oper",
+   "estado": "proximamente",
+   "fecha_venta": "TBA",
+   "enlace": "",
+   "seccion": "tickets"
+  },
+  "UK|EDINBURGH|17 SEP 2027|3 PM|Usher Hall": {
+   "pais": "UK",
+   "ciudad": "EDINBURGH",
+   "fecha": "17 SEP 2027",
+   "hora": "3 PM",
+   "orquesta": "Royal Scottish National Orchestra",
+   "sede": "Usher Hall",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://cultureedinburgh.com/events/the-legend-of-zelda-40th-anniversary-concert",
+   "seccion": "tickets"
+  },
+  "UK|GLASGOW|18 SEP 2027|3 PM|Glasgow Royal Concert Hall": {
+   "pais": "UK",
+   "ciudad": "GLASGOW",
+   "fecha": "18 SEP 2027",
+   "hora": "3 PM",
+   "orquesta": "Royal Scottish National Orchestra",
+   "sede": "Glasgow Royal Concert Hall",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.glasgowlife.org.uk/features/special-events/rsno-presents-the-legend-of-zelda-40th-anniversary-concert",
    "seccion": "tickets"
   },
   "CAN|TORONTO, ON|21 OCT 2027|7:30 PM|Roy Thomson Hall": {
@@ -79,6 +204,42 @@
    "sede": "Davies Symphony Hall",
    "estado": "proximamente",
    "fecha_venta": "25 Mar 2027",
+   "enlace": "",
+   "seccion": "tickets"
+  },
+  "FRA|PARIS|13 NOV 2027|8 PM|Philharmonie de Paris": {
+   "pais": "FRA",
+   "ciudad": "PARIS",
+   "fecha": "13 NOV 2027",
+   "hora": "8 PM",
+   "orquesta": "Orchestre Colonne",
+   "sede": "Philharmonie de Paris",
+   "estado": "proximamente",
+   "fecha_venta": "TBA",
+   "enlace": "",
+   "seccion": "tickets"
+  },
+  "FRA|PARIS|14 NOV 2027|3 PM|Philharmonie de Paris": {
+   "pais": "FRA",
+   "ciudad": "PARIS",
+   "fecha": "14 NOV 2027",
+   "hora": "3 PM",
+   "orquesta": "Orchestre Colonne",
+   "sede": "Philharmonie de Paris",
+   "estado": "proximamente",
+   "fecha_venta": "TBA",
+   "enlace": "",
+   "seccion": "tickets"
+  },
+  "FRA|PARIS|14 NOV 2027|6 PM|Philharmonie de Paris": {
+   "pais": "FRA",
+   "ciudad": "PARIS",
+   "fecha": "14 NOV 2027",
+   "hora": "6 PM",
+   "orquesta": "Orchestre Colonne",
+   "sede": "Philharmonie de Paris",
+   "estado": "proximamente",
+   "fecha_venta": "TBA",
    "enlace": "",
    "seccion": "tickets"
   },
