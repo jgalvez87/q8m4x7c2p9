@@ -1,8 +1,24 @@
 {
- "actualizado": "2026-11-12T11:49:11+00:00",
- "total": 50,
- "ciudades": 19,
+ "actualizado": "2026-11-12T19:10:49+00:00",
+ "total": 53,
+ "ciudades": 20,
  "historial": [
+  {
+   "cuando": "2026-11-12T19:10:49+00:00",
+   "eventos": [
+    "[nueva_ciudad] ROME (ITA) 17 APR 2027",
+    "[nueva_ciudad] ROME (ITA) 18 APR 2027",
+    "[nueva_ciudad] ROME (ITA) 18 APR 2027",
+    "[estado] AMSTERDAM (NLD) 6 SEP 2027 -> en_venta",
+    "[estado] AMSTERDAM (NLD) 7 SEP 2027 -> en_venta",
+    "[estado] FRANKFURT AM MAIN (GER) 10 SEP 2027 -> en_venta",
+    "[nuevo_concierto] FRANKFURT AM MAIN (GER) 11 SEP 2027",
+    "[estado] FRANKFURT AM MAIN (GER) 11 SEP 2027 -> en_venta",
+    "[nuevo_concierto] PARIS (FRA) 14 NOV 2027",
+    "[retirado] FRANKFURT AM MAIN (GER) 11 SEP 2027",
+    "[retirado] PARIS (FRA) 14 NOV 2027"
+   ]
+  },
   {
    "cuando": "2026-11-12T11:49:11+00:00",
    "eventos": [
@@ -63,6 +79,42 @@
    "enlace": "https://www.royalalberthall.com/tickets/events/2027/the-legend-of-zelda-40th-anniversary-concert",
    "seccion": "tickets"
   },
+  "ITA|ROME|17 APR 2027|8:30 PM|Auditorium Conciliazione": {
+   "pais": "ITA",
+   "ciudad": "ROME",
+   "fecha": "17 APR 2027",
+   "hora": "8:30 PM",
+   "orquesta": "Orchestra Italiana del Cinema",
+   "sede": "Auditorium Conciliazione",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.orchestraitalianadelcinema.it/the-legend-of-zelda/",
+   "seccion": "tickets"
+  },
+  "ITA|ROME|18 APR 2027|3 PM|Auditorium Conciliazione": {
+   "pais": "ITA",
+   "ciudad": "ROME",
+   "fecha": "18 APR 2027",
+   "hora": "3 PM",
+   "orquesta": "Orchestra Italiana del Cinema",
+   "sede": "Auditorium Conciliazione",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.orchestraitalianadelcinema.it/the-legend-of-zelda/",
+   "seccion": "tickets"
+  },
+  "ITA|ROME|18 APR 2027|7:30 PM|Auditorium Conciliazione": {
+   "pais": "ITA",
+   "ciudad": "ROME",
+   "fecha": "18 APR 2027",
+   "hora": "7:30 PM",
+   "orquesta": "Orchestra Italiana del Cinema",
+   "sede": "Auditorium Conciliazione",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.orchestraitalianadelcinema.it/the-legend-of-zelda/",
+   "seccion": "tickets"
+  },
   "SWE|STOCKHOLM|19 JUN 2027|3 PM|Konserthuset Stockholm": {
    "pais": "SWE",
    "ciudad": "STOCKHOLM",
@@ -72,7 +124,7 @@
    "sede": "Konserthuset Stockholm",
    "estado": "en_venta",
    "fecha_venta": "",
-   "enlace": "https://www.konserthuset.se/en/programme/calendar/concert/2027/the-legend-of-zelda-40th-anniversary-concert/20270618-1900/",
+   "enlace": "https://www.konserthuset.se/en/programme/calendar/concert/2027/the-legend-of-zelda-40th-anniversary-concert/20270619-1500/",
    "seccion": "tickets"
   },
   "AUS|SYDNEY|9 JUL 2027|2 PM|Sydney Opera House": {
@@ -94,9 +146,9 @@
    "hora": "8:15 PM",
    "orquesta": "Netherlands Philharmonic Orchestra",
    "sede": "Concertgebouw Amsterdam",
-   "estado": "proximamente",
-   "fecha_venta": "TBA",
-   "enlace": "",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://orkest.nl/en/concerten/1816-the-legend-of-zelda-40th-anniversary-concert/",
    "seccion": "tickets"
   },
   "NLD|AMSTERDAM|7 SEP 2027|8:15 PM|Concertgebouw Amsterdam": {
@@ -106,9 +158,9 @@
    "hora": "8:15 PM",
    "orquesta": "Netherlands Philharmonic Orchestra",
    "sede": "Concertgebouw Amsterdam",
-   "estado": "proximamente",
-   "fecha_venta": "TBA",
-   "enlace": "",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://orkest.nl/en/concerten/1824-the-legend-of-zelda-40th-anniversary-concert/",
    "seccion": "tickets"
   },
   "GER|FRANKFURT AM MAIN|10 SEP 2027|8 PM|Alte Oper": {
@@ -118,21 +170,21 @@
    "hora": "8 PM",
    "orquesta": "Frankfurt Radio Symphony",
    "sede": "Alte Oper",
-   "estado": "proximamente",
-   "fecha_venta": "TBA",
-   "enlace": "",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.hr-sinfonieorchester.de/konzerte/konzerte-26-27/the-legend-of-zelda-40th-anniversary-concert,the-legend-of-zelda-40th-anniversary-concert-100.html",
    "seccion": "tickets"
   },
-  "GER|FRANKFURT AM MAIN|11 SEP 2027|2 PM|Alte Oper": {
+  "GER|FRANKFURT AM MAIN|11 SEP 2027|3:30 PM|Alte Oper": {
    "pais": "GER",
    "ciudad": "FRANKFURT AM MAIN",
    "fecha": "11 SEP 2027",
-   "hora": "2 PM",
+   "hora": "3:30 PM",
    "orquesta": "Frankfurt Radio Symphony",
    "sede": "Alte Oper",
-   "estado": "proximamente",
-   "fecha_venta": "TBA",
-   "enlace": "",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.hr-sinfonieorchester.de/konzerte/konzerte-26-27/the-legend-of-zelda-40th-anniversary-concert,the-legend-of-zelda-40th-anniversary-concert-100.html",
    "seccion": "tickets"
   },
   "GER|FRANKFURT AM MAIN|11 SEP 2027|8 PM|Alte Oper": {
@@ -142,9 +194,9 @@
    "hora": "8 PM",
    "orquesta": "Frankfurt Radio Symphony",
    "sede": "Alte Oper",
-   "estado": "proximamente",
-   "fecha_venta": "TBA",
-   "enlace": "",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.hr-sinfonieorchester.de/konzerte/konzerte-26-27/the-legend-of-zelda-40th-anniversary-concert,the-legend-of-zelda-40th-anniversary-concert-100.html",
    "seccion": "tickets"
   },
   "UK|EDINBURGH|17 SEP 2027|3 PM|Usher Hall": {
@@ -231,11 +283,11 @@
    "enlace": "",
    "seccion": "tickets"
   },
-  "FRA|PARIS|14 NOV 2027|6 PM|Philharmonie de Paris": {
+  "FRA|PARIS|14 NOV 2027|7 PM|Philharmonie de Paris": {
    "pais": "FRA",
    "ciudad": "PARIS",
    "fecha": "14 NOV 2027",
-   "hora": "6 PM",
+   "hora": "7 PM",
    "orquesta": "Orchestre Colonne",
    "sede": "Philharmonie de Paris",
    "estado": "proximamente",
