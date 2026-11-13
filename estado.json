@@ -1,8 +1,19 @@
 {
- "actualizado": "2026-11-12T19:10:49+00:00",
- "total": 53,
+ "actualizado": "2026-11-13T00:16:01+00:00",
+ "total": 59,
  "ciudades": 20,
  "historial": [
+  {
+   "cuando": "2026-11-13T00:16:01+00:00",
+   "eventos": [
+    "[nuevo_concierto] CHICAGO, IL (USA) 26 FEB 2027",
+    "[nuevo_concierto] SEATTLE, WA (USA) 15 JUL 2027",
+    "[nuevo_concierto] HOUSTON, TX (USA) 24 JUL 2027",
+    "[nuevo_concierto] VIENNA, VA (USA) 31 JUL 2027",
+    "[nuevo_concierto] VIENNA, VA (USA) 1 AUG 2027",
+    "[nuevo_concierto] LOS ANGELES, CA (USA) 23 AUG 2027"
+   ]
+  },
   {
    "cuando": "2026-11-12T19:10:49+00:00",
    "eventos": [
@@ -67,6 +78,18 @@
   }
  ],
  "conciertos": {
+  "USA|CHICAGO, IL|26 FEB 2027|7:30 PM|Symphony Center": {
+   "pais": "USA",
+   "ciudad": "CHICAGO, IL",
+   "fecha": "26 FEB 2027",
+   "hora": "7:30 PM",
+   "orquesta": "Members of the Chicago Symphony Orchestra",
+   "sede": "Symphony Center",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://chicagosymphony.org/performances/26-27/featured/the-legend-of-zelda/",
+   "seccion": "tickets"
+  },
   "UK|LONDON|6 APR 2027|7:30 PM|Royal Albert Hall": {
    "pais": "UK",
    "ciudad": "LONDON",
@@ -137,6 +160,66 @@
    "estado": "en_venta",
    "fecha_venta": "",
    "enlace": "https://www.sydneysymphony.com/events/the-legend-of-zelda-2027",
+   "seccion": "tickets"
+  },
+  "USA|SEATTLE, WA|15 JUL 2027|7:30 PM|Benaroya Hall": {
+   "pais": "USA",
+   "ciudad": "SEATTLE, WA",
+   "fecha": "15 JUL 2027",
+   "hora": "7:30 PM",
+   "orquesta": "Seattle Symphony",
+   "sede": "Benaroya Hall",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://benaroyahall.org/pdps/concertstickets/calendar/2026-2027/27-zelda",
+   "seccion": "tickets"
+  },
+  "USA|HOUSTON, TX|24 JUL 2027|7:30 PM|Jones Hall for the Performing Arts": {
+   "pais": "USA",
+   "ciudad": "HOUSTON, TX",
+   "fecha": "24 JUL 2027",
+   "hora": "7:30 PM",
+   "orquesta": "Houston Symphony",
+   "sede": "Jones Hall for the Performing Arts",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://houstonsymphony.org/performance/the-legend-of-zelda-40th-anniversary-concert/",
+   "seccion": "tickets"
+  },
+  "USA|VIENNA, VA|31 JUL 2027|2 PM|Filene Center at Wolf Trap": {
+   "pais": "USA",
+   "ciudad": "VIENNA, VA",
+   "fecha": "31 JUL 2027",
+   "hora": "2 PM",
+   "orquesta": "National Symphony Orchestra",
+   "sede": "Filene Center at Wolf Trap",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.wolftrap.org/show/27filene/073027/",
+   "seccion": "tickets"
+  },
+  "USA|VIENNA, VA|1 AUG 2027|7:30 PM|Filene Center at Wolf Trap": {
+   "pais": "USA",
+   "ciudad": "VIENNA, VA",
+   "fecha": "1 AUG 2027",
+   "hora": "7:30 PM",
+   "orquesta": "National Symphony Orchestra",
+   "sede": "Filene Center at Wolf Trap",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.wolftrap.org/show/27filene/073027/",
+   "seccion": "tickets"
+  },
+  "USA|LOS ANGELES, CA|23 AUG 2027|8 PM|Hollywood Bowl": {
+   "pais": "USA",
+   "ciudad": "LOS ANGELES, CA",
+   "fecha": "23 AUG 2027",
+   "hora": "8 PM",
+   "orquesta": "Hollywood Bowl Orchestra",
+   "sede": "Hollywood Bowl",
+   "estado": "en_venta",
+   "fecha_venta": "",
+   "enlace": "https://www.hollywoodbowl.com/events/performances/4909/2027-08-25/the-legend-of-zelda",
    "seccion": "tickets"
   },
   "NLD|AMSTERDAM|6 SEP 2027|8:15 PM|Concertgebouw Amsterdam": {
