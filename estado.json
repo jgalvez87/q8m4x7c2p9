@@ -1,8 +1,17 @@
 {
- "actualizado": "2026-11-13T14:56:12+00:00",
+ "actualizado": "2026-11-13T21:04:56+00:00",
  "total": 59,
  "ciudades": 20,
  "historial": [
+  {
+   "cuando": "2026-11-13T21:04:56+00:00",
+   "eventos": [
+    "[agotado] CHICAGO, IL (USA) 26 FEB 2027 7:30 PM",
+    "[agotado] LONDON (UK) 6 APR 2027 7:30 PM",
+    "[agotado] EDINBURGH (UK) 17 SEP 2027 3 PM",
+    "[agotado] GLASGOW (UK) 18 SEP 2027 3 PM"
+   ]
+  },
   {
    "cuando": "2026-11-13T14:56:12+00:00",
    "eventos": [
@@ -86,30 +95,6 @@
   }
  ],
  "conciertos": {
-  "USA|CHICAGO, IL|26 FEB 2027|7:30 PM|Symphony Center": {
-   "pais": "USA",
-   "ciudad": "CHICAGO, IL",
-   "fecha": "26 FEB 2027",
-   "hora": "7:30 PM",
-   "orquesta": "Members of the Chicago Symphony Orchestra",
-   "sede": "Symphony Center",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://chicagosymphony.org/performances/26-27/featured/the-legend-of-zelda/",
-   "seccion": "tickets"
-  },
-  "UK|LONDON|6 APR 2027|7:30 PM|Royal Albert Hall": {
-   "pais": "UK",
-   "ciudad": "LONDON",
-   "fecha": "6 APR 2027",
-   "hora": "7:30 PM",
-   "orquesta": "London Symphony Orchestra",
-   "sede": "Royal Albert Hall",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://www.royalalberthall.com/tickets/events/2027/the-legend-of-zelda-40th-anniversary-concert",
-   "seccion": "tickets"
-  },
   "ITA|ROME|17 APR 2027|8:30 PM|Auditorium Conciliazione": {
    "pais": "ITA",
    "ciudad": "ROME",
@@ -215,7 +200,7 @@
    "sede": "Hollywood Bowl",
    "estado": "en_venta",
    "fecha_venta": "",
-   "enlace": "https://www.hollywoodbowl.com/events/performances/4909/2027-08-25/the-legend-of-zelda",
+   "enlace": "https://www.hollywoodbowl.com/events/instances/t1fn77gy/2027-08-23/the-legend-of-zelda",
    "seccion": "tickets"
   },
   "GER|FRANKFURT AM MAIN|10 SEP 2027|8 PM|Alte Oper": {
@@ -252,30 +237,6 @@
    "estado": "en_venta",
    "fecha_venta": "",
    "enlace": "https://www.hr-sinfonieorchester.de/konzerte/konzerte-26-27/the-legend-of-zelda-40th-anniversary-concert,the-legend-of-zelda-40th-anniversary-concert-100.html",
-   "seccion": "tickets"
-  },
-  "UK|EDINBURGH|17 SEP 2027|3 PM|Usher Hall": {
-   "pais": "UK",
-   "ciudad": "EDINBURGH",
-   "fecha": "17 SEP 2027",
-   "hora": "3 PM",
-   "orquesta": "Royal Scottish National Orchestra",
-   "sede": "Usher Hall",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://cultureedinburgh.com/events/the-legend-of-zelda-40th-anniversary-concert",
-   "seccion": "tickets"
-  },
-  "UK|GLASGOW|18 SEP 2027|3 PM|Glasgow Royal Concert Hall": {
-   "pais": "UK",
-   "ciudad": "GLASGOW",
-   "fecha": "18 SEP 2027",
-   "hora": "3 PM",
-   "orquesta": "Royal Scottish National Orchestra",
-   "sede": "Glasgow Royal Concert Hall",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://www.glasgowlife.org.uk/features/special-events/rsno-presents-the-legend-of-zelda-40th-anniversary-concert",
    "seccion": "tickets"
   },
   "CAN|TORONTO, ON|21 OCT 2027|7:30 PM|Roy Thomson Hall": {
@@ -374,6 +335,18 @@
    "enlace": "",
    "seccion": "soldout"
   },
+  "USA|CHICAGO, IL|26 FEB 2027|7:30 PM|Symphony Center": {
+   "pais": "USA",
+   "ciudad": "CHICAGO, IL",
+   "fecha": "26 FEB 2027",
+   "hora": "7:30 PM",
+   "orquesta": "Members of the Chicago Symphony Orchestra",
+   "sede": "Symphony Center",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
   "UK|LONDON|3 APR 2027|2:30 PM|Royal Albert Hall": {
    "pais": "UK",
    "ciudad": "LONDON",
@@ -415,6 +388,18 @@
    "ciudad": "LONDON",
    "fecha": "4 APR 2027",
    "hora": "6:30 PM",
+   "orquesta": "London Symphony Orchestra",
+   "sede": "Royal Albert Hall",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
+  "UK|LONDON|6 APR 2027|7:30 PM|Royal Albert Hall": {
+   "pais": "UK",
+   "ciudad": "LONDON",
+   "fecha": "6 APR 2027",
+   "hora": "7:30 PM",
    "orquesta": "London Symphony Orchestra",
    "sede": "Royal Albert Hall",
    "estado": "agotado",
@@ -734,6 +719,18 @@
    "enlace": "",
    "seccion": "soldout"
   },
+  "UK|EDINBURGH|17 SEP 2027|3 PM|Usher Hall": {
+   "pais": "UK",
+   "ciudad": "EDINBURGH",
+   "fecha": "17 SEP 2027",
+   "hora": "3 PM",
+   "orquesta": "Royal Scottish National Orchestra",
+   "sede": "Usher Hall",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
   "UK|EDINBURGH|17 SEP 2027|7:30 PM|Usher Hall": {
    "pais": "UK",
    "ciudad": "EDINBURGH",
@@ -741,6 +738,18 @@
    "hora": "7:30 PM",
    "orquesta": "Royal Scottish National Orchestra",
    "sede": "Usher Hall",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
+  "UK|GLASGOW|18 SEP 2027|3 PM|Glasgow Royal Concert Hall": {
+   "pais": "UK",
+   "ciudad": "GLASGOW",
+   "fecha": "18 SEP 2027",
+   "hora": "3 PM",
+   "orquesta": "Royal Scottish National Orchestra",
+   "sede": "Glasgow Royal Concert Hall",
    "estado": "agotado",
    "fecha_venta": "",
    "enlace": "",
