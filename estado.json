@@ -1,8 +1,15 @@
 {
- "actualizado": "2026-11-14T01:24:10+00:00",
+ "actualizado": "2026-11-14T07:40:25+00:00",
  "total": 59,
  "ciudades": 20,
  "historial": [
+  {
+   "cuando": "2026-11-14T07:40:25+00:00",
+   "eventos": [
+    "[agotado] SEATTLE, WA (USA) 15 JUL 2027 7:30 PM",
+    "[agotado] HOUSTON, TX (USA) 24 JUL 2027 7:30 PM"
+   ]
+  },
   {
    "cuando": "2026-11-14T01:24:10+00:00",
    "eventos": [
@@ -113,30 +120,6 @@
    "estado": "en_venta",
    "fecha_venta": "",
    "enlace": "https://www.sydneysymphony.com/events/the-legend-of-zelda-2027",
-   "seccion": "tickets"
-  },
-  "USA|SEATTLE, WA|15 JUL 2027|7:30 PM|Benaroya Hall": {
-   "pais": "USA",
-   "ciudad": "SEATTLE, WA",
-   "fecha": "15 JUL 2027",
-   "hora": "7:30 PM",
-   "orquesta": "Seattle Symphony",
-   "sede": "Benaroya Hall",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://benaroyahall.org/pdps/concertstickets/calendar/2026-2027/27-zelda",
-   "seccion": "tickets"
-  },
-  "USA|HOUSTON, TX|24 JUL 2027|7:30 PM|Jones Hall for the Performing Arts": {
-   "pais": "USA",
-   "ciudad": "HOUSTON, TX",
-   "fecha": "24 JUL 2027",
-   "hora": "7:30 PM",
-   "orquesta": "Houston Symphony",
-   "sede": "Jones Hall for the Performing Arts",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://houstonsymphony.org/performance/the-legend-of-zelda-40th-anniversary-concert/",
    "seccion": "tickets"
   },
   "USA|VIENNA, VA|31 JUL 2027|2 PM|Filene Center at Wolf Trap": {
@@ -607,6 +590,18 @@
    "enlace": "",
    "seccion": "soldout"
   },
+  "USA|SEATTLE, WA|15 JUL 2027|7:30 PM|Benaroya Hall": {
+   "pais": "USA",
+   "ciudad": "SEATTLE, WA",
+   "fecha": "15 JUL 2027",
+   "hora": "7:30 PM",
+   "orquesta": "Seattle Symphony",
+   "sede": "Benaroya Hall",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
   "USA|SEATTLE, WA|16 JUL 2027|8 PM|Benaroya Hall": {
    "pais": "USA",
    "ciudad": "SEATTLE, WA",
@@ -660,6 +655,18 @@
    "ciudad": "HOUSTON, TX",
    "fecha": "24 JUL 2027",
    "hora": "2 PM",
+   "orquesta": "Houston Symphony",
+   "sede": "Jones Hall for the Performing Arts",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
+  "USA|HOUSTON, TX|24 JUL 2027|7:30 PM|Jones Hall for the Performing Arts": {
+   "pais": "USA",
+   "ciudad": "HOUSTON, TX",
+   "fecha": "24 JUL 2027",
+   "hora": "7:30 PM",
    "orquesta": "Houston Symphony",
    "sede": "Jones Hall for the Performing Arts",
    "estado": "agotado",
