@@ -1,8 +1,16 @@
 {
- "actualizado": "2026-11-13T21:04:56+00:00",
+ "actualizado": "2026-11-14T01:24:10+00:00",
  "total": 59,
  "ciudades": 20,
  "historial": [
+  {
+   "cuando": "2026-11-14T01:24:10+00:00",
+   "eventos": [
+    "[agotado] ROME (ITA) 17 APR 2027 8:30 PM",
+    "[agotado] ROME (ITA) 18 APR 2027 3 PM",
+    "[agotado] ROME (ITA) 18 APR 2027 7:30 PM"
+   ]
+  },
   {
    "cuando": "2026-11-13T21:04:56+00:00",
    "eventos": [
@@ -95,42 +103,6 @@
   }
  ],
  "conciertos": {
-  "ITA|ROME|17 APR 2027|8:30 PM|Auditorium Conciliazione": {
-   "pais": "ITA",
-   "ciudad": "ROME",
-   "fecha": "17 APR 2027",
-   "hora": "8:30 PM",
-   "orquesta": "Orchestra Italiana del Cinema",
-   "sede": "Auditorium Conciliazione",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://www.ticketone.it/eventseries/the-legend-of-zelda-40th-anniversary-concert-4285913/",
-   "seccion": "tickets"
-  },
-  "ITA|ROME|18 APR 2027|3 PM|Auditorium Conciliazione": {
-   "pais": "ITA",
-   "ciudad": "ROME",
-   "fecha": "18 APR 2027",
-   "hora": "3 PM",
-   "orquesta": "Orchestra Italiana del Cinema",
-   "sede": "Auditorium Conciliazione",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://www.ticketone.it/eventseries/the-legend-of-zelda-40th-anniversary-concert-4285913/",
-   "seccion": "tickets"
-  },
-  "ITA|ROME|18 APR 2027|7:30 PM|Auditorium Conciliazione": {
-   "pais": "ITA",
-   "ciudad": "ROME",
-   "fecha": "18 APR 2027",
-   "hora": "7:30 PM",
-   "orquesta": "Orchestra Italiana del Cinema",
-   "sede": "Auditorium Conciliazione",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://www.ticketone.it/eventseries/the-legend-of-zelda-40th-anniversary-concert-4285913/",
-   "seccion": "tickets"
-  },
   "AUS|SYDNEY|9 JUL 2027|2 PM|Sydney Opera House": {
    "pais": "AUS",
    "ciudad": "SYDNEY",
@@ -402,6 +374,42 @@
    "hora": "7:30 PM",
    "orquesta": "London Symphony Orchestra",
    "sede": "Royal Albert Hall",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
+  "ITA|ROME|17 APR 2027|8:30 PM|Auditorium Conciliazione": {
+   "pais": "ITA",
+   "ciudad": "ROME",
+   "fecha": "17 APR 2027",
+   "hora": "8:30 PM",
+   "orquesta": "Orchestra Italiana del Cinema",
+   "sede": "Auditorium Conciliazione",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
+  "ITA|ROME|18 APR 2027|3 PM|Auditorium Conciliazione": {
+   "pais": "ITA",
+   "ciudad": "ROME",
+   "fecha": "18 APR 2027",
+   "hora": "3 PM",
+   "orquesta": "Orchestra Italiana del Cinema",
+   "sede": "Auditorium Conciliazione",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
+  "ITA|ROME|18 APR 2027|7:30 PM|Auditorium Conciliazione": {
+   "pais": "ITA",
+   "ciudad": "ROME",
+   "fecha": "18 APR 2027",
+   "hora": "7:30 PM",
+   "orquesta": "Orchestra Italiana del Cinema",
+   "sede": "Auditorium Conciliazione",
    "estado": "agotado",
    "fecha_venta": "",
    "enlace": "",
