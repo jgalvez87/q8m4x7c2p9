@@ -1,8 +1,14 @@
 {
- "actualizado": "2026-11-25T04:26:36+00:00",
+ "actualizado": "2026-11-25T14:44:14+00:00",
  "total": 59,
  "ciudades": 20,
  "historial": [
+  {
+   "cuando": "2026-11-25T14:44:14+00:00",
+   "eventos": [
+    "[agotado] SYDNEY (AUS) 9 JUL 2027 2 PM"
+   ]
+  },
   {
    "cuando": "2026-11-14T07:40:25+00:00",
    "eventos": [
@@ -110,18 +116,6 @@
   }
  ],
  "conciertos": {
-  "AUS|SYDNEY|9 JUL 2027|2 PM|Sydney Opera House": {
-   "pais": "AUS",
-   "ciudad": "SYDNEY",
-   "fecha": "9 JUL 2027",
-   "hora": "2 PM",
-   "orquesta": "Sydney Symphony Orchestra",
-   "sede": "Sydney Opera House",
-   "estado": "en_venta",
-   "fecha_venta": "",
-   "enlace": "https://www.sydneysymphony.com/events/the-legend-of-zelda-2027",
-   "seccion": "tickets"
-  },
   "USA|VIENNA, VA|31 JUL 2027|2 PM|Filene Center at Wolf Trap": {
    "pais": "USA",
    "ciudad": "VIENNA, VA",
@@ -549,6 +543,18 @@
    "hora": "2 PM",
    "orquesta": "Dallas Symphony Orchestra",
    "sede": "Morton H. Meyerson Symphony Center",
+   "estado": "agotado",
+   "fecha_venta": "",
+   "enlace": "",
+   "seccion": "soldout"
+  },
+  "AUS|SYDNEY|9 JUL 2027|2 PM|Sydney Opera House": {
+   "pais": "AUS",
+   "ciudad": "SYDNEY",
+   "fecha": "9 JUL 2027",
+   "hora": "2 PM",
+   "orquesta": "Sydney Symphony Orchestra",
+   "sede": "Sydney Opera House",
    "estado": "agotado",
    "fecha_venta": "",
    "enlace": "",
